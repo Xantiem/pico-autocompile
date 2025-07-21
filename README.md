@@ -13,8 +13,9 @@ Will automatically fetch the pico-sdk in `sdk/` if it is not already downloaded
 `minicom -D /dev/ttyACM0 -b 115200` Read output
 
 Installation of arm compilers: 
-    `wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh`
+
+    wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
     
-    `sudo chmod +x pico_setup.sh`
+    sudo chmod +x pico_setup.sh
     
-    `./pico_setup.h`
+    ./pico_setup.h
