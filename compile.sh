@@ -15,6 +15,7 @@ else
     git clone https://github.com/raspberrypi/pico-sdk/
 fi
 cd pico-sdk/
+git submodule update --init
 git init
 export PICO_SDK_PATH=$(pwd)
 echo "PICO_SDK_PATH path at $PICO_SDK_PATH"
