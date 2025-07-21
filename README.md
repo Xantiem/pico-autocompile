@@ -19,3 +19,5 @@ Will automatically fetch the pico-sdk in `sdk/` if it is not already downloaded
     sudo chmod +x pico_setup.sh
     
     ./pico_setup.h
+
+[source reference](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi_pico/sdk/)
