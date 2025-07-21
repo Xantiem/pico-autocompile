@@ -14,5 +14,7 @@ Will automatically fetch the pico-sdk in `sdk/` if it is not already downloaded
 
 Installation of arm compilers: 
     `wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh`
+    
     `sudo chmod +x pico_setup.sh`
+    
     `./pico_setup.h`
