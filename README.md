@@ -1,9 +1,9 @@
-# simple-pico-project
-A simple library to compile pico w projects
+# pico-autocompile
+A project to serve as a baseline to easily compile pico projects on Linux systems (based on the work by [Tom Flaherty](https://github.com/tom-flaherty/pico-blank-cpp))
 
-Files go in `source/`
+Source files in `source/`
 
-# To compile simply 
+# Compilation:
     chmod +x compile.sh
     ./compile.sh
 
@@ -21,3 +21,5 @@ Will automatically fetch the pico-sdk in `sdk/` if it is not already downloaded
     ./pico_setup.h
 
 [source reference](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi_pico/sdk/)
+
+Todo: add automated arm compiler installation steps
